@@ -24,11 +24,11 @@ export const CartWrapper = styled.div`
 `
 
 export const CartInfo = styled.div`
+    z-index: 605;
     position: absolute;
     left: -254px;
     top: 29px;
     width: 293px;
-    height: 288px;
     background-color: #ffffff;
     border: 1px solid #cccccc;
     padding: 0 20px;
@@ -38,3 +38,9 @@ export const CartInfo = styled.div`
         display: block;
     }
 `
+export const CartItem = styled.div`
+    clear: both;
+    width: 255px;
+    margin: 15px;
+    background-color: blue;
+` 
